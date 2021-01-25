@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>BodyFit</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,600;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+         <!--Font Awesome-->
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+        
+    </head>
+
+    <body onload="">
+
+        <header class="cabecalho-bg">
+            <div class="menu">
+                <div class=logo>
+                    <a href="index.html">BodyFit</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="unidades.html">Unidades</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="login.html">Espaço do aluno</a></li>
+                    </ul>
+                </nav>    
+            </div>          
+        </header>
+        
+        <section id="section-form">
+            <div>
+
+                <h3>Entrar no espaço do aluno</h3>
+                <form>
+                    <input type="text" class="cpf" placeholder="CPF">
+                    <input type="password" class="senha" placeholder="Senha">
+                    
+                </form>
+            </div>
+            <div class="flex-div-login">
+                <div><a href="#abrirModal" class="confirmar">Entrar</a></div>
+                <div><a href="cadastro.html" class="novo-cadastro">Novo cadastro</a></div>
+                <div><a class="esquecer-senha" href="#trocar-senha">Esqueceu a senha?</a></div>
+                
+            </div>
+            
+            
+            
+        </section>
+
+        <section>
+            <div  id="abrirModal" class="modal">
+                
+                <div class="interior-modal">
+                    <a href="login.html" title="Fechar" class="fechar">x</a>
+                    <h3>Usuário ou senha inválidos!</h3>
+                    <p>Tente novamente mais tarde!</p>
+                </div>
+            </div>
+
+            <div  id="trocar-senha" class="modal2">
+                
+                <div class="interior-modal senha">
+                    <a href="login.html" title="Fechar" class="fechar">x</a>
+                    <p>Você receberá um link em seu E-mail para alterar a senha</p>
+                    <div class="input-senha"><input type="text" placeholder="CPF"></div>
+                    <div class="input-senha"><input type="email" placeholder="E-mail"></div>
+                    <a href="login.html" class="botao-senha">Confimar</a>
+                </div>
+            </div>
+            
+        </section>
+
+        
+
+        <footer>
+            <div class="rodape">
+                <div>
+                    <p>© BodyFit Todos os direitos reservados</p>
+                </div>
+    
+                <div class="redes sociais">
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp fa-lg"></i></a>
+                    <a href="https://www.instagram.com/?hl=pt-br" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://www.facebook.com/?hl=pt-br" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+                    <a href="https://www.youtube.com/?hl=pt-br" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>                   
+                </div>
+            </div>
+        </footer>
+
+        <script src=js/app.js></script>
+    </body>
+</html>
